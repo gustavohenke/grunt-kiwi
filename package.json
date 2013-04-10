@@ -1,0 +1,39 @@
+{
+	"name":         "grunt-kiwi",
+	"version":      "0.1.0",
+	"description":  "Grunt task for rendering Kiwi templates to HTML.",
+	"author": {
+		"name": "Gustavo Henke",
+		"url":  "https://github.com/gustavohenke"
+	},
+	"repository": {
+		"type": "git",
+		"url":  "git://github.com/gustavohenke/grunt-kiwi.git"
+	},
+	"bugs": {
+		"url": "https://github.com/gustavohenke/grunt-kiwi/issues"
+	},
+	"main": "Gruntfile.js",
+	"keywords": [
+		"gruntplugin",
+		"kiwi",
+		"templating"
+	],
+	"engines": {
+		"node": ">=0.8.0"
+	},
+	"scripts": {
+		"test": "grunt test"
+	},
+	"dependencies": {
+		"kiwi": "*"
+	},
+	"devDependencies": {
+		"grunt-contrib-jshint": "*",
+		"grunt-contrib-nodeunit": "*",
+		"grunt-contrib-clean": "*"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.0"
+	}
+}

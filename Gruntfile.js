@@ -18,10 +18,18 @@ module.exports = function( grunt ) {
 			test: ["tmp"]
 		},
 		kiwi: {
-			tests: {
+			test1: {
 				src:  "test/fixtures/*.kiwi",
 				dest: "tmp/",
 				data: grunt.file.readJSON("test/fixtures/data.json")
+			},
+			test2: {
+				src:  "test/fixtures/*.kiwi",
+				dest: "tmp/",
+				data: grunt.file.readJSON("test/fixtures/data.json"),
+				options: {
+					extension: ""
+				}
 			}
 		},
 		nodeunit: {

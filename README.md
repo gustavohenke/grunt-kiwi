@@ -29,6 +29,12 @@ Default: utf8
 
 What encoding should be used when writing the HTML tags.
 
+#### extension
+Type: `String`
+Default: .html
+
+The extension that will be used in the destination file.
+
 ### Usage examples
 
 In this example, running `grunt kiwi:target` (or `grunt kiwi`, because `kiwi` is a multi task) will render each file in the `src` array to HTML files in the `dest` directory.

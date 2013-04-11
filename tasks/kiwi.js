@@ -4,7 +4,8 @@ module.exports = function( grunt ) {
 	var kiwi = require("kiwi");
 	var path = require("path");
 	var defaults = {
-		encoding:   "utf8"
+		encoding:   "utf8",
+		extension:  ".html"
 	};
 
 	grunt.registerMultiTask( "kiwi", "Compiles Kiwi templates", function() {
@@ -32,7 +33,7 @@ module.exports = function( grunt ) {
 				}
 
 				var baseName = path.basename( name, path.extname( name ) );
-				grunt.file.write( path.join( dest, baseName + ".html"), rendered.toString(), {
+				grunt.file.write( path.join( dest, baseName + options.extension ), rendered.toString(), {
 					encoding: options.encoding
 				});
 

@@ -1,4 +1,4 @@
-# grunt-kiwi
+# grunt-kiwi [![Build Status](https://travis-ci.org/gustavohenke/grunt-kiwi.png)](https://travis-ci.org/gustavohenke/grunt-kiwi)
 > Render Kiwi templates to HTML.
 
 ## Getting started

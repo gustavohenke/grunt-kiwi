@@ -1,6 +1,6 @@
 {
 	"name":         "grunt-kiwi",
-	"version":      "0.1.0",
+	"version":      "0.1.1",
 	"description":  "Grunt task for rendering Kiwi templates to HTML.",
 	"author": {
 		"name": "Gustavo Henke",
@@ -26,14 +26,14 @@
 		"test": "grunt test"
 	},
 	"dependencies": {
-		"kiwi": "*"
+		"kiwi": "0.2.x"
 	},
 	"devDependencies": {
-		"grunt-contrib-jshint": "*",
-		"grunt-contrib-nodeunit": "*",
-		"grunt-contrib-clean": "*"
+		"grunt-contrib-jshint": "0.4.x",
+		"grunt-contrib-nodeunit": "0.1.x",
+		"grunt-contrib-clean": "0.4.x"
 	},
 	"peerDependencies": {
-		"grunt": "~0.4.0"
+		"grunt": "0.4.x"
 	}
 }

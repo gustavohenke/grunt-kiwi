@@ -29,9 +29,9 @@
 		"kiwi": "0.2.x"
 	},
 	"devDependencies": {
-		"grunt-contrib-jshint": "0.4.x",
-		"grunt-contrib-nodeunit": "0.1.x",
-		"grunt-contrib-clean": "0.4.x"
+		"grunt-contrib-jshint": "0.6.x",
+		"grunt-contrib-nodeunit": "0.2.x",
+		"grunt-contrib-clean": "0.5.x"
 	},
 	"peerDependencies": {
 		"grunt": "0.4.x"

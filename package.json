@@ -1,14 +1,14 @@
 {
-	"name":         "grunt-kiwi",
-	"version":      "0.1.1",
-	"description":  "Grunt task for rendering Kiwi templates to HTML.",
+	"name": "grunt-kiwi",
+	"version": "0.1.1",
+	"description": "Grunt task for rendering Kiwi templates to HTML.",
 	"author": {
 		"name": "Gustavo Henke",
-		"url":  "https://github.com/gustavohenke"
+		"url": "https://github.com/gustavohenke"
 	},
 	"repository": {
 		"type": "git",
-		"url":  "git://github.com/gustavohenke/grunt-kiwi.git"
+		"url": "git://github.com/gustavohenke/grunt-kiwi.git"
 	},
 	"bugs": {
 		"url": "https://github.com/gustavohenke/grunt-kiwi/issues"
@@ -34,6 +34,6 @@
 		"grunt-contrib-clean": "0.5.x"
 	},
 	"peerDependencies": {
-		"grunt": "0.4.x"
+		"grunt": ">=0.4.0"
 	}
 }

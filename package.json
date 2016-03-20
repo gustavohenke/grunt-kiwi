@@ -6,10 +6,7 @@
     "name": "Gustavo Henke",
     "url": "https://github.com/gustavohenke"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/gustavohenke/grunt-kiwi.git"
-  },
+  "repository": "gustavohenke/grunt-kiwi",
   "main": "Gruntfile.js",
   "keywords": [
     "gruntplugin",

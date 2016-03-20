@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git://github.com/gustavohenke/grunt-kiwi.git"
   },
-  "bugs": {
-    "url": "https://github.com/gustavohenke/grunt-kiwi/issues"
-  },
   "main": "Gruntfile.js",
   "keywords": [
     "gruntplugin",
